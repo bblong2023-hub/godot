@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cmxajxhdi25tp"]
+
+[ext_resource type="PackedScene" uid="uid://dffebnd04ul7t" path="res://scene/主角.tscn" id="1_f85oj"]
+[ext_resource type="Texture2D" uid="uid://by53y5binh514" path="res://asset/icon.svg" id="2_3gj5e"]
+
+[node name="Node2D" type="Node2D" unique_id=796235894]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=2119657277]
+position = Vector2(3, 0)
+texture = ExtResource("2_3gj5e")
+
+[node name="主角" parent="." unique_id=742075196 instance=ExtResource("1_f85oj")]
+position = Vector2(2, -5)
